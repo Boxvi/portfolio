@@ -18,6 +18,10 @@ export default function Nav() {
       text: 'Informacion',
     },
     {
+      path: '/experiences',
+      text: 'Experiencia',
+    },
+    {
       path: '/work',
       text: 'Trabajos',
     },
