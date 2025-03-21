@@ -14,7 +14,13 @@ export default function Experience() {
             <p className="mb-4 mt-0.5 text-sm">
               {role.startDate} - {role.endDate}
             </p>
-            <p>{role.description}</p>
+            
+            <ul className="list-disc pl-5">
+              {role.tasks.map((task, i) => (
+                <li key={i}>{task}</li>
+              ))}
+
+            </ul>
           </div>
         )
       })}

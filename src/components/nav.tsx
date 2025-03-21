@@ -21,10 +21,7 @@ export default function Nav() {
       path: '/experiences',
       text: 'Experiencia',
     },
-    {
-      path: '/work',
-      text: 'Trabajos',
-    },
+
   ]
 
   return (
@@ -51,3 +48,8 @@ export default function Nav() {
     </div>
   )
 }
+/*
+    {
+      path: '/work',
+      text: 'Trabajos',
+    },*/
