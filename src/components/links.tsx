@@ -18,18 +18,7 @@ export default function Links() {
       icon: SiGithub,
       href: 'https://github.com/Boxvi',
     },
-    {
-      icon: SiLinkedin,
-      href: 'https://www.linkedin.com/in/boris-quizhpe',
-    },
-    {
-      icon: SiFacebook,
-      href: 'https://www.facebook.com/BoxviSoft',
-    },
-    {
-      icon: SiWhatsapp,
-      href: 'https://wa.me/593996474990?text=Hola%20Boris,%20%C2%BFc%C3%B3mo%20te%20encuentras%20el%20d%C3%ADa%20de%20hoy?',
-    },
+
   ]
 
   return (
@@ -44,3 +33,16 @@ export default function Links() {
     </div>
   )
 }
+/*
+    {
+      icon: SiLinkedin,
+      href: 'https://www.linkedin.com/in/boris-quizhpe',
+    },
+    {
+      icon: SiFacebook,
+      href: 'https://www.facebook.com/BoxviSoft',
+    },
+    {
+      icon: SiWhatsapp,
+      href: 'https://wa.me/593996474990?text=Hola%20Boris,%20%C2%BFc%C3%B3mo%20te%20encuentras%20el%20d%C3%ADa%20de%20hoy?',
+    },*/
